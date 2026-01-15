@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #0a192f;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #64ffda;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #0a192f, #112240);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero span {
+    color: #64ffda;
+}
+
+.btn, .btn-outline {
+    margin-top: 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn {
+    background: #64ffda;
+    color: #0a192f;
+}
+
+.btn-outline {
+    border: 2px solid #64ffda;
+    color: #64ffda;
+    margin-left: 10px;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.dark {
+    background: #0a192f;
+    color: #fff;
+}
+
+.skills span {
+    display: inline-block;
+    background: #64ffda;
+    color: #0a192f;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a192f;
+    color: #fff;
+}
